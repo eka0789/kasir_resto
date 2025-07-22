@@ -33,16 +33,17 @@ def add_menu_item(menu):
     except ValueError:
         print("Harga dan stok harus berupa angka.")
 
-def view_menu(menu):
-    if not menu:
-        print("Menu masih kosong.")
-        return
-    print("\n--- DAFTAR MENU ---")
-    print(f"{'No.':<4} {'Item':<20} {'Harga':>10} {'Stok':>5}")
+def view_menu(menu_data):
+    print("No.  Item                      Harga     Stok")
     print("--------------------------------------------------")
-    for i, (item, details) in enumerate(menu.items(), 1):
-        print(f"{i:<4} {item:<20} {details['price']:>10,.2f} {details['stock']:>5}")
-    print("--------------------------------------------------")
+    for i, (item, details) in enumerate(menu_data.items(), start=1):
+        try:
+            harga = details['price']
+            stok = details['stock']
+            print(f"{i:<4} {item:<20} {harga:>10,.2f} {stok:>5}")
+        except (TypeError, KeyError):
+            print(f"{i:<4} {item:<20} [DATA INVALID]")
+
 
 def update_menu_item(menu):
     view_menu(menu)
