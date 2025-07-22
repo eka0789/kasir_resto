@@ -113,8 +113,8 @@ Struk transaksi disimpan dalam format file teks (`.txt`). Untuk mencetaknya, And
 
 Aplikasi ini adalah dasar yang baik untuk memulai. Beberapa ide pengembangan lebih lanjut meliputi:
 
-  * **Manajemen Stok:** Tambahkan fitur untuk melacak ketersediaan item.
+  * **Manajemen Stok:** Tambahkan fitur untuk melacak ketersediaan item. ✔
   * **Database:** Ganti penyimpanan JSON dengan database sederhana seperti [SQLite](https://docs.python.org/3/library/sqlite3.html) untuk pengelolaan data yang lebih robust.
-  * **Laporan Penjualan:** Implementasikan fitur untuk menghasilkan laporan penjualan harian/mingguan/bulanan.
+  * **Laporan Penjualan:** Implementasikan fitur untuk menghasilkan laporan penjualan harian/mingguan/bulanan. ✔
   * **Antarmuka Grafis (GUI):** Jika Anda ingin tampilan yang lebih interaktif, pertimbangkan untuk membangun GUI menggunakan `Tkinter`, `PyQt`, atau `Kivy`.
   * **Integrasi Printer POS:** Untuk pencetakan struk langsung ke printer POS, Anda mungkin perlu mengintegrasikan library seperti [`python-escpos`](https://www.google.com/search?q=%5Bhttps://pypi.org/project/python-escpos/%5D\(https://pypi.org/project/python-escpos/\)).
