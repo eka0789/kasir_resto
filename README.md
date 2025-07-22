@@ -1,7 +1,3 @@
-Tentu, berikut adalah contoh file `README.md` untuk aplikasi kasir restoran yang kita bahas:
-
------
-
 # Aplikasi Kasir Restoran (CLI)
 
 -----
