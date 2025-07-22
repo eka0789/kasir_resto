@@ -49,8 +49,8 @@ Ikuti langkah-langkah mudah ini untuk menjalankan aplikasi:
     Jika Anda mendapatkan kode ini dari repositori, kloninglah:
 
     ```bash
-    git clone <URL_repositori_anda>
-    cd <nama_folder_aplikasi>
+    git clone https://github.com/eka0789/kasir_resto
+    cd kasir_resto
     ```
 
     Jika tidak, pastikan Anda memiliki semua file (`main.py`, `menu.py`, `order.py`, `receipt.py`) dalam satu direktori.
