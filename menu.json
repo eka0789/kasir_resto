@@ -2,10 +2,10 @@
     "Nasi Goreng": 10000.0,
     "es teh": {
         "price": 3000.0,
-        "stock": 100
+        "stock": 60
     },
     "nasi goreng": {
         "price": 12000.0,
-        "stock": 100
+        "stock": 70
     }
 }

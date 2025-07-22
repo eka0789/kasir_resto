@@ -1,0 +1,20 @@
+[
+    {
+        "timestamp": "2025-07-22T16:14:48.963331",
+        "order_details": [
+            {
+                "item": "nasi goreng",
+                "price": 12000.0,
+                "quantity": 30
+            },
+            {
+                "item": "es teh",
+                "price": 3000.0,
+                "quantity": 40
+            }
+        ],
+        "total_amount": 480000.0,
+        "amount_paid": 1000000.0,
+        "change": 520000.0
+    }
+]
